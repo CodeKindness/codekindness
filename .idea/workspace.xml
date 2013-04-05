@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073a8846-b286-4d6f-b69b-bba4dac9b321" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="auroraminter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +20,7 @@
     <file path="/app.rb" changelist="073a8846-b286-4d6f-b69b-bba4dac9b321" time="1365127720687" ignored="false" />
     <file path="/Gemfile" changelist="073a8846-b286-4d6f-b69b-bba4dac9b321" time="1365127984971" ignored="false" />
     <file path="/layout.erb" changelist="073a8846-b286-4d6f-b69b-bba4dac9b321" time="1365128824712" ignored="false" />
+    <file path="/README.md" changelist="073a8846-b286-4d6f-b69b-bba4dac9b321" time="1365129342399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +78,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.1418919">
+            <state line="2" column="44" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.8955224">
               <folding />
             </state>
           </provider>
@@ -122,6 +137,7 @@
         <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/views/index.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -449,7 +465,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.1418919">
+        <state line="2" column="44" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.8955224">
           <folding />
         </state>
       </provider>
