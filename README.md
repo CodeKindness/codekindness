@@ -1,30 +1,42 @@
-# README
-
 ## About
 
-Boilerplate Sinatra application ready with latest trending grid framework <a href="#">Twitter Bootstrap</a> and Javascript library <a href="#">jQuery</a>.
+> Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort:
 
-## Running
+This application is a boilerplate mixture of Sinatra readied with latest window grid framework <a href="http://twitter.github.io/bootstrap/" target="_blank" alt="Twitter Bootstrap" title="Twitter Bootstrap">Twitter Bootstrap</a> and Javascript library <a href="http://jquery.com/" target="_blank" alt="jQuery" title="jQuery">jQuery</a>.
 
-Download repositiory:
+## Installation
+
+Download repositiory
 
 ```
 $ git clone git@github.com:michaelminter/sinatra-boilerplate.git --origin newprojectname
 ```
 
-Create RVM environment (if necessary):
+Change directory
 
 ```
-rvm use 1.9.2@projectname
+$ cd newprojectname/
 ```
 
-Install dependencies:
+Create RVM environment (if necessary)
+
+```
+$ rvm --rvmrc --create 1.9.2@newprojectname
+```
+
+Confirm RVM setup
+
+```
+$ gem env gemdir
+```
+
+Install dependencies
 
 ```
 bundle install
 ```
 
-Run this application:
+Run this application
 
 ```
 $ shotgun app.rb
@@ -40,5 +52,5 @@ $ ruby app.rb
 
 and load <http://localhost:4567> in your browser
 
-> __Shotgun__ will actually restart your application on every request. This has the advantage over other reloading techniques of always producing correct results. However, since it actually restarts your application, it is rather slow compared to the alternatives. Moreover, since it relies on fork, it is not available on Windows and JRuby.
+> __Shotgun__ (_available in Gemfile_) will actually restart your application on every request. This has the advantage over other reloading techniques of always producing correct results. However, since it actually restarts your application, it is rather slow compared to the alternatives. Moreover, since it relies on fork, it is not available on Windows and JRuby.
 
