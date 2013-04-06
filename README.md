@@ -18,7 +18,7 @@ Change directory
 $ cd newprojectname/
 ```
 
-Create RVM environment (if necessary)
+Create RVM environment (if <a href="http://sirupsen.com/get-started-right-with-rvm/" target="_blank" alt="Install RVM" title="Install RVM">installed</a>)
 
 ```
 $ rvm --rvmrc --create 1.9.2@newprojectname
@@ -30,7 +30,7 @@ Confirm RVM setup
 $ gem env gemdir
 ```
 
-Install dependencies
+If you have bundler installed
 
 ```
 bundle install
@@ -42,7 +42,7 @@ Run this application
 $ shotgun app.rb
 ```
 
-and load <http://localhost:9393> in your browser
+and load <http://0.0.0.0:9393> in your browser
 
 ### or
 
@@ -50,7 +50,7 @@ and load <http://localhost:9393> in your browser
 $ ruby app.rb
 ```
 
-and load <http://localhost:4567> in your browser
+and load <http://0.0.0.0:4567> in your browser
 
 > __Shotgun__ (_available in Gemfile_) will actually restart your application on every request. This has the advantage over other reloading techniques of always producing correct results. However, since it actually restarts your application, it is rather slow compared to the alternatives. Moreover, since it relies on fork, it is not available on Windows and JRuby.
 
