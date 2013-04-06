@@ -2,7 +2,7 @@
 
 > Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort:
 
-This application is a boilerplate mixture of Sinatra readied with latest window grid framework <a href="http://twitter.github.io/bootstrap/" target="_blank" alt="Twitter Bootstrap" title="Twitter Bootstrap">Twitter Bootstrap</a> and Javascript library <a href="http://jquery.com/" target="_blank" alt="jQuery" title="jQuery">jQuery</a>.
+This application is a boilerplate mixture of Sinatra DSL readied with latest front-end framework <a href="http://twitter.github.io/bootstrap/" target="_blank" alt="Twitter Bootstrap" title="Twitter Bootstrap">Twitter Bootstrap</a> and Javascript library <a href="http://jquery.com/" target="_blank" alt="jQuery" title="jQuery">jQuery</a>.
 
 ## Installation
 
