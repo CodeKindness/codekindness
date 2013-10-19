@@ -1,51 +1,508 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sinatra</title>
-  <script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-  <script src="/bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/custom.css">
+  <meta charset="utf-8">
+  <title>Code Kindness</title>
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/flexslider.css" rel="stylesheet">
+  <link href="/stylesheets/style.css" rel="stylesheet">
+  <link href="/stylesheets/buttonPro.css" rel="stylesheet" />
+
 </head>
-<body style="padding-top: 50px;">
+<body id="top">
 
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
+<!-- Header -->
+<header id="header">
+  <div class="container">
+    <!-- Logo -->
+    <div id="logo">
+      <a href="/"><img src="/images/codekindness_logo.jpg" alt="Rythm"></a>
+    </div>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li class="current-menu-item"><a href="#top">Top</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#the-team">The Team</a></li>
+        <li><a href="#clients">Experience</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#get-in-touch">Get In Touch</a></li>
+      </ul>
+    </nav>
+  </div>
+</header><!-- #header -->
+
+
+<!-- Slider -->
+<section id="slider">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <h1>Developers helping families<br>help children</h1>
+        <img src="/images/background_africa.jpg" alt="African Children">
+      </li>
+      <li>
+        <h1>Developers helping companies<br>help animals</h1>
+        <img src="/images/background_pound.jpg" alt="Dog in pound">
+      </li>
+      <li>
+        <h1>Developers helping people<br>help people</h1>
+        <img src="/images/background_children.jpg" alt="Sick children">
+      </li>
+    </ul>
+  </div>
+</section><!-- #slider -->
+
+
+<!-- Portfolio Page -->
+<article class="page portfolio" id="portfolio">
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>Featured Work</h1></a></div>
+    <p>Below are some of our best design works we have done for clients.</p>
+
+    <div class="portfolio-items">
+      <div class="row">
+
+        <!-- Portfolio Item -->
+        <a href="#" data-toggle="modal">
+          <dl class="span4">
+            <dt><img src="/images/clients/homeless_coach.jpg" alt=""></dt>
+            <dd>Homeless Coach</dd>
+          </dl>
+        </a>
+        <!-- Modal -->
+        <div class="modal">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          </div>
+          <img src="/images/pictures/modal.png" alt="">
+          <div class="modal-body">
+            <h1>Clinkilinki Logo Design</h1>
+            <div class="description">
+              <ul class="meta">
+                <li><strong>Client:</strong> Clinkilinki</li>
+                <li><strong>Year:</strong> 2012</li>
+                <li><strong>Services:</strong> Logo design</li>
+              </ul>
+              <p>User interface design or user interface engineering is the design of computers, appliances, machines, mobile communication devices, software applications, and websites with the focus on the user's experience and interaction. The goal of user interface design is to make the user's interaction as simple and efficient as possible.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+          </div>
+        </div>
+
+        <!-- Portfolio Item -->
+        <a href="#" data-toggle="modal">
+          <dl class="span4">
+            <dt><img src="/images/clients/one_less_orphan.jpg" alt=""></dt>
+            <dd>One Less Orphan</dd>
+          </dl>
+        </a>
+        <!-- Modal -->
+        <div class="modal">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          </div>
+          <img src="/images/case_studies/one_less_orphan.png" alt="">
+          <div class="modal-body">
+            <h1>One Less Orphan Development and Paypal Integration</h1>
+            <div class="description">
+              <ul class="meta">
+                <li><strong>Client:</strong> Potters</li>
+                <li><strong>Year:</strong> 2012</li>
+                <li><strong>Services:</strong> Development</li>
+              </ul>
+              <p>User interface design or user interface engineering is the design of computers, appliances, machines, mobile communication devices, software applications, and websites with the focus on the user's experience and interaction. The goal of user interface design is to make the user's interaction as simple and efficient as possible.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+          </div>
+        </div>
+
+        <!-- Portfolio Item -->
+        <a href="http://missinghippo.com" target="_blank">
+          <dl class="span4">
+            <dt><img src="/images/clients/missing-hippo.png" alt=""></dt>
+            <dd>Missing Hippo</dd>
+          </dl>
+        </a>
+        <!-- Modal -->
+        <div class="modal">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          </div>
+          <img src="/images/pictures/modal.png" alt="">
+          <div class="modal-body">
+            <h1>Clinkilinki Logo Design</h1>
+            <div class="description">
+              <ul class="meta">
+                <li><strong>Client:</strong> Clinkilinki</li>
+                <li><strong>Year:</strong> 2012</li>
+                <li><strong>Services:</strong> Logo design</li>
+              </ul>
+              <p>User interface design or user interface engineering is the design of computers, appliances, machines, mobile communication devices, software applications, and websites with the focus on the user's experience and interaction. The goal of user interface design is to make the user's interaction as simple and efficient as possible.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</article>
+<!-- #portfolio -->
+
+
+<!-- Services Page -->
+<article class="page even" id="services">
+
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>What We Do</h1></a></div>
+    <p>Here is what we can do for your next awesome idea!</p>
+  </div>
+
+  <div class="widget-area">
     <div class="container">
-
-      <a class="brand" href="/">
-        Sinatra Boilerplate
-      </a>
-
-      <ul class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-      <ul class="nav pull-right">
-        <li class="dropdown">
-          <a href="#"
-             class="dropdown-toggle"
-             data-toggle="dropdown">
-            Hello, User
-            <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Logout</a></li>
-          </ul>
-        </li>
-      </ul>
+      <!-- Item -->
+      <div class="widget widget-teaser width-33">
+        <img src="/images/pictures/services-1.png" alt="">
+        <h2 class="widget-title">Concept&amp;Design</h2>
+        <div class="widget-content">
+          Tell us your story and how you want the world to hear&mdash;while we figure out the details.
+        </div>
+      </div>
+      <!-- Item -->
+      <div class="widget widget-teaser width-33">
+        <img src="/images/pictures/services-2.png" alt="">
+        <h2 class="widget-title">Excecution&amp;Testing</h2>
+        <div class="widget-content">
+          Empower your company and its market with the technology resources only we provide.
+        </div>
+      </div>
+      <!-- Item -->
+      <div class="widget widget-teaser width-33">
+        <img src="/images/pictures/services-3.png" alt="">
+        <h2 class="widget-title">Launch&amp;Support</h2>
+        <div class="widget-content">
+          Get help with marketing and technical support the entire way through your new moments.
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="container">
-  <%if @error then %>
-    <div class="alert alert-error"><%=@error%></div>
-  <% end %>
-  <%= yield %>
-</div>
+</article>
+<!-- #services -->
+
+
+<!-- Team Page -->
+<article class="page staff" id="the-team">
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>An Awesome Team</h1></a></div>
+    <p>We are a small but dedicated team. And a bunch of nice people.</p>
+
+    <div class="staff-items">
+      <div class="row">
+        <!-- Item -->
+        <dl class="span4">
+          <dt><img src="/images/pictures/michael.jpg" alt="Michael Minter"></dt>
+          <dd>
+            <h3>Michael Minter</h3>
+            <p>- President -</p>
+            <ul class="social-profiles">
+              <li><a href="http://www.linkedin.com/profile/view?id=62607318" target="_blank" title="Linkedin"><img src="/images/icons/linkedin.png" alt="Linkedin"></a></li>
+              <li><a href="http://moorberry.net" target="_blank" title="RSS"><img src="/images/icons/rss-basic.png" alt="RSS"></a></li>
+              <li><a href="http://github.com/michaelminter" target="_blank" title="Github"><img src="/images/icons/github.png" alt="Github"></a></li>
+              <li><a href="http://twitter.com/mothore" target="_blank" title="Twitter"><img src="/images/icons/twitter.png" alt="Twitter"></a></li>
+            </ul>
+          </dd>
+        </dl>
+        <!-- Item -->
+        <dl class="span4">
+          <dt><img src="/images/pictures/adam_potter.png" alt="Adam Potter"></dt>
+          <dd>
+            <h3>Adam Potter</h3>
+            <p>- Vice President of Technology -</p>
+            <ul class="social-profiles">
+              <li><a href="http://www.linkedin.com/profile/view?id=25711647" target="_blank" title="Linkedin"><img src="/images/icons/linkedin.png" alt="Linkedin"></a></li>
+              <li><a href="http://twitter.com/thenetwork" target="_blank" title="Twitter"><img src="/images/icons/twitter.png" alt="Twitter"></a></li>
+            </ul>
+          </dd>
+        </dl>
+        <!-- Item -->
+        <dl class="span4">
+          <dt><img src="/images/pictures/kirsten.jpg" alt="Kirsten Dolan"></dt>
+          <dd>
+            <h3>Kirsten Dolan</h3>
+            <p>- Director of Marketing -</p>
+            <ul class="social-profiles">
+              <li><a href="#" target="_blank" title="Linkedin"><img src="/images/icons/linkedin.png" alt="Linkedin"></a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</article>
+<!-- #the-team -->
+
+<!-- Clients Page -->
+<article class="page staff even" id="clients">
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>Experience</h1></a></div>
+    <p>These are some of the nicest brands we have worked with.</p>
+
+    <div class="client-items">
+      <div class="row">
+        <!-- Item -->
+        <div class="span4">
+          <img src="/images/pictures/open-austin.png" alt="ynpn Austin">
+        </div>
+        <!-- Item -->
+        <div class="span4">
+          <img src="/images/pictures/code-for-america.png" alt="Code For America">
+        </div>
+        <!-- Item -->
+        <div class="span4">
+          <img src="/images/pictures/rubymine.png" alt="RubyMine">
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<!-- #clients -->
+
+<!-- Connect Page -->
+<article class="page portfolio" id="connect">
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>Connect With Us</h1></a></div>
+    <p>Connect with us through social media and get updates and news.</p>
+    <ul class="connect">
+      <li><a href="http://github.com/CodeKindness" target="_blank"><img src="/images/icons/octocat-80.png" alt="Github" target="_blank"></a></li>
+      <li><a href="https://plus.google.com/115270605204245729078" target="_blank"><img src="/images/icons/google-plus-80.png" alt="Google Plus" target="_blank" style=""></a></li>
+      <li><a href="http://twitter.com/codekindness" target="_blank"><img src="/images/icons/twitter-80.png" alt="Twitter"></a></li>
+      <li><a href="http://facebook.com/CodeKindness" target="_blank"><img src="/images/icons/facebook-80.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="/images/icons/dribbble-80.png" alt="Pinterest" target="_blank"></a></li>
+      <li><a href="#"><img src="/images/icons/rss-80.png" alt="LinkedIn" target="_blank"></a></li>
+    </ul>
+  </div>
+</article>
+<!-- #connect -->
+
+<!-- Contact Page -->
+<article class="page portfolio even" id="get-in-touch">
+
+  <div class="container">
+    <div class="page-title"><a href="#top"><h1>Get In Touch</h1></a></div>
+    <p>We are currently accepting new projects! Get in touch with us.</p>
+
+    <div id="map_canvas" style="height:490px;width:940px;"></div>
+
+    <div class="address">
+      <div class="row">
+        <div class="span6">
+          <p><img src="/images/codekindness_logo_bottom.jpg" alt=""></p>
+          <p><strong>Have a question? Call us: +1 714-770-8060</strong></p>
+          <p>We are an organization of international developers serving clients however they need. If you want to work with us, shoot us an email using the form on the right, and we will get back to you. Thanks!</p>
+        </div>
+        <div class="span5 offset1">
+          <form action="/mail" method="POST">
+            <input type="text" id="contactname" name="message[name]" placeholder="Name">
+            <input type="text" id="email" name="message[email]" placeholder="Email">
+            <div class="textarea-container"><textarea id="message" name="message[description]" placeholder="Message"></textarea></div>
+            <input type="submit" id="submit" name="submit" value="Send Message" class="buttonPro large green" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<!-- #get-in-touch -->
+
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Widget -->
+      <div class="widget widget-text span4">
+        <div class="widget-title"><h3>Github Activity</h3></div>
+        <div class="widget-content">
+          <div id="repos"></div>
+        </div>
+      </div>
+
+      <!-- Widget -->
+      <div class="widget widget-twitter span4">
+        <div class="widget-title"><h3>Latest Tweets</h3></div>
+        <div class="widget-content">
+          <div></div>
+        </div>
+      </div>
+
+      <!-- Widget -->
+      <div class="widget widget-flickr span4">
+        <div class="widget-title"><h3>Newsletter</h3></div>
+        <div class="widget-content">
+          <div>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="http://myinverts.us2.list-manage.com/subscribe/post?u=d1c4ac9a671b0ffb7420c5a4e&amp;id=c5efe3f3cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL">Subscribe to our newsletter and receive regular updates on the going ons</label><br />
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="buttonPro green"></div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <section id="copyright">
+    <div class="container">
+      <div class="pull-right"><a href="#top" id="go-top"><img src="/images/top.png" alt="Go Top"></a></div>
+      <div class="pull-left">&copy; 2013 Code Kindness - Check us out <a href="https://plus.google.com/115270605204245729078" rel="publisher">Google+</a></div>
+    </div>
+  </section>
+</footer>
+<!-- #footer -->
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/javascripts/jquery-1.7.2.min.js"></script>
+<script src="/javascripts/jquery.mobilemenu.js"></script>
+<script src="/javascripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="/javascripts/jquery.localscroll-1.2.7-min.js"></script>
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<script src="/javascripts/jquery.simplemodal.1.4.3.min.js"></script>
+<script src="/javascripts/jquery.tweet.js"></script>
+<script src="/javascripts/jquery.github-activity.js"></script>
+<script src="/javascripts/modernizr.custom.js"></script>
+<script src="/javascripts/jquery.qtip-1.0.0-rc3.min.js"></script>
+<script src="/javascripts/jquery.timeago.js"></script>
+<script src="/javascripts/main.js"></script>
+<script src="/javascripts/maps.js"></script>
+
+<script>
+  function initialize() {
+
+    // Create an array of styles.
+    var styles =   [
+      {
+        stylers: [
+          { hue: '#00ffe6' },
+          { saturation: -20 }
+        ]
+      },{
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [
+          { lightness: 100 },
+          { visibility: 'simplified' }
+        ]
+      },{
+        featureType: 'road',
+        elementType: 'labels',
+        stylers: [
+          { visibility: 'off' }
+        ]
+      }
+    ];
+
+    // Create a new StyledMapType object, passing it the array of styles, as well as the name to be displayed on the map type control.
+    var styledMap  = new google.maps.StyledMapType(styles, {name: 'Styled Map'});
+
+    // Create a map object, and include the MapTypeId to add to the map type control.
+    var mapOptions = {
+      scrollwheel: false,
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+      }
+    };
+    var map    = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+    var bounds = new google.maps.LatLngBounds();
+
+    map.fitBounds(bounds);
+
+    var developers = [
+      ['Michael Minter', 30.398592,-97.698307, 1],
+      ['Brian Rollins', 30.142582,-97.792555, 1],
+      ['Adam Potter', 32.4314,-80.6700, 1]
+    ];
+
+    for (var i = 0; i < developers.length; i++)
+    {
+      var location = developers[i];
+      var point    = new google.maps.LatLng(location[1], location[2]);
+      var marker   = new google.maps.Marker({
+        position: point,
+        map: map,
+        title: location[0],
+        zIndex: location[3]
+      });
+      bounds.extend(point);
+    }
+
+    //Associate the styled map with the MapTypeId and set it to display.
+    map.mapTypes.set('map_style', styledMap);
+    map.setMapTypeId('map_style');
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37524672-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+  f[z]=function(){
+    (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+  },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+    f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+    0:+new Date};a.P=function(u){
+    a.p[u]=new Date-a.p[0]};function s(){
+    a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+    hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+    return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+    b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+    b.contentWindow[g].open()}catch(w){
+    c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+    var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+    b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+  loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('8698-815-10-9267');/*]]>*/</script><noscript><a href="https://www.olark.com/site/8698-815-10-9267/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
 </body>
 </html>
