@@ -97,7 +97,7 @@ article.even { background: #fff; }
 .page-title, #footer .widget-title {
 	text-align: center;
 	padding-bottom: 17px;
-	background: url("/assets/title-arrow.png") center 100% no-repeat;
+	background: url("/images/title-arrow.png") center 100% no-repeat;
 }
 .page-title h1 { min-width: 190px; }
 .page-title h1, #footer .widget-title > * { margin: 0; }
@@ -110,7 +110,7 @@ article.even { background: #fff; }
 .modal-header .close {
 	width: 34px;
 	height: 34px;
-	background: url("/assets/close.png");
+	background: url("/images/close.png");
 	text-indent: -999px;
 	overflow: hidden;
 	margin: 17px 22px 0 0;
@@ -149,7 +149,7 @@ article .widget-area .widget { border-right: #e9e9e9 1px dashed; }
 #footer .widget-text .widget-content div { font-size:12px;line-height:16px; }
 #footer .widget-text .widget-content div li { list-style-type: none;margin-bottom:10px; }
 
-#footer .widget-title { background-image: url("/assets/title-arrow-2.png"); padding-bottom: 10px; }
+#footer .widget-title { background-image: url("/images/title-arrow-2.png"); padding-bottom: 10px; }
 #footer .widget-title > * {
 	background: #24282f;
 	width: 100%;
@@ -223,7 +223,7 @@ article .widget-area .widget { border-right: #e9e9e9 1px dashed; }
 
 /* CONTACT */
 #map {
-  background:url(/assets/map.jpg);
+  background:url(/images/map.jpg);
 	margin: 54px 0 44px;
 	display: block;
 	width: 100%;
@@ -262,7 +262,7 @@ textarea {
 	line-height: 24px;
 	padding: 18px;
 	width: 100%;
-	text-indent: 0;	
+	text-indent: 0;
 }
 .textarea-container { margin: 0 18px; }
 .textarea-container textarea { margin-left: -18px; }
@@ -289,14 +289,14 @@ textarea {
 
 @media (min-width: 768px) and (max-width: 979px) {
 	#header nav li { margin-left: 20px; }
-	
+
 	#slider h1 { font-size: 42px; line-height: 48px; top: 34px; }
 	.flex-control-nav { bottom: 36px; }
-	
+
 	#simplemodal-overlay, #simplemodal-container { display: none !important; }
-	
+
 	.connect li { margin: 0 22px; }
-	
+
 	#contact textarea { width: 254px; }
 }
 @media (max-width: 767px) {
@@ -321,13 +321,13 @@ textarea {
 		margin: 0;
 	}
 	.flex-control-nav { bottom: 20px; }
-	
+
 	article .widget-area { margin: 40px 0 30px; }
 	.widget-teaser .widget-title { margin-top: 16px; }
 	article .widget, .widget-teaser .widget-content, article .widget-area { border: none !important; }
-	
+
 	.width-33 { width: 100%; }
-	
+
 	.widget-teaser .widget-title { margin-bottom: 20px; }
 	.widget-teaser .widget-content { border-bottom: #e9e9e9 1px dashed; border-top: none; padding-top: 0; }
 
@@ -337,7 +337,7 @@ textarea {
 	.connect li, .connect li:first-child, .connect li:last-child { margin: 10px; display: inline-block; float: none; }
 
 	#header nav { display: none; }
-	
+
 }
 
 @media (max-width: 480px) {
